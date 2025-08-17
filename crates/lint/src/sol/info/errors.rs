@@ -10,7 +10,7 @@ use super::Errors;
 declare_forge_lint!(
     USE_ERROR_IN_REQUIRE,
     Severity::Info,
-    "use-error-in-require",
+    "error-in-require",
     "use if...revert pattern or custom errors with require statements instead of strings"
 );
 

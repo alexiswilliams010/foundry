@@ -1,8 +1,8 @@
-note[use-error-in-require]: use if...revert pattern or custom errors with require statements instead of strings
+note[error-in-require]: use if...revert pattern or custom errors with require statements instead of strings
  --> ROOT/testdata/Errors.sol:LL:CC
   |
 5 | ...   require(x != 0, "Value cannot be zero");
   |                       ----------------------
   |
-  = help: https://book.getfoundry.sh/reference/forge/forge-lint#use-error-in-require
+  = help: https://book.getfoundry.sh/reference/forge/forge-lint#error-in-require
 
