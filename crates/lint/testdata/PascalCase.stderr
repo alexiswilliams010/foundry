@@ -1,0 +1,248 @@
+note[pascal-case-struct]: structs should use PascalCase
+  --> ROOT/testdata/PascalCase.sol:LL:CC
+   |
+13 |     struct _PascalCase {
+   |            -----------
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#pascal-case-struct
+
+note[pascal-case-struct]: structs should use PascalCase
+  --> ROOT/testdata/PascalCase.sol:LL:CC
+   |
+17 |     struct pascalCase {
+   |            ----------
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#pascal-case-struct
+
+note[pascal-case-struct]: structs should use PascalCase
+  --> ROOT/testdata/PascalCase.sol:LL:CC
+   |
+21 |     struct pascalcase {
+   |            ----------
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#pascal-case-struct
+
+note[pascal-case-struct]: structs should use PascalCase
+  --> ROOT/testdata/PascalCase.sol:LL:CC
+   |
+25 |     struct pascal_case {
+   |            -----------
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#pascal-case-struct
+
+note[pascal-case-struct]: structs should use PascalCase
+  --> ROOT/testdata/PascalCase.sol:LL:CC
+   |
+29 |     struct PASCAL_CASE {
+   |            -----------
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#pascal-case-struct
+
+note[pascal-case-struct]: structs should use PascalCase
+  --> ROOT/testdata/PascalCase.sol:LL:CC
+   |
+33 |     struct PASCALCASE {
+   |            ----------
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#pascal-case-struct
+
+note[pascal-case-contract]: contracts should use PascalCase
+  --> ROOT/testdata/PascalCase.sol:LL:CC
+   |
+38 | contract contractPascalCaseTest {}
+   |          ----------------------
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#pascal-case-contract
+
+note[pascal-case-contract]: contracts should use PascalCase
+  --> ROOT/testdata/PascalCase.sol:LL:CC
+   |
+40 | contract _ContractPascalCaseTest {}
+   |          -----------------------
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#pascal-case-contract
+
+note[pascal-case-contract]: contracts should use PascalCase
+  --> ROOT/testdata/PascalCase.sol:LL:CC
+   |
+41 | contract contractpascalcasetest {}
+   |          ----------------------
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#pascal-case-contract
+
+note[pascal-case-contract]: contracts should use PascalCase
+  --> ROOT/testdata/PascalCase.sol:LL:CC
+   |
+42 | contract contract_pascal_case_test {}
+   |          -------------------------
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#pascal-case-contract
+
+note[pascal-case-contract]: contracts should use PascalCase
+  --> ROOT/testdata/PascalCase.sol:LL:CC
+   |
+43 | contract CONTRACT_PASCAL_CASE_TEST {}
+   |          -------------------------
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#pascal-case-contract
+
+note[pascal-case-contract]: contracts should use PascalCase
+  --> ROOT/testdata/PascalCase.sol:LL:CC
+   |
+44 | contract CONTRACTPASCALCASETEST {}
+   |          ----------------------
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#pascal-case-contract
+
+note[pascal-case-library]: libraries should use PascalCase
+  --> ROOT/testdata/PascalCase.sol:LL:CC
+   |
+46 | library libraryPascalCaseTest {}
+   |         ---------------------
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#pascal-case-library
+
+note[pascal-case-library]: libraries should use PascalCase
+  --> ROOT/testdata/PascalCase.sol:LL:CC
+   |
+48 | library _LibraryPascalCaseTest {}
+   |         ----------------------
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#pascal-case-library
+
+note[pascal-case-library]: libraries should use PascalCase
+  --> ROOT/testdata/PascalCase.sol:LL:CC
+   |
+49 | library librarypascalcasetest {}
+   |         ---------------------
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#pascal-case-library
+
+note[pascal-case-library]: libraries should use PascalCase
+  --> ROOT/testdata/PascalCase.sol:LL:CC
+   |
+50 | library library_pascal_case_test {}
+   |         ------------------------
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#pascal-case-library
+
+note[pascal-case-library]: libraries should use PascalCase
+  --> ROOT/testdata/PascalCase.sol:LL:CC
+   |
+51 | library LIBRARY_PASCAL_CASE_TEST {}
+   |         ------------------------
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#pascal-case-library
+
+note[pascal-case-library]: libraries should use PascalCase
+  --> ROOT/testdata/PascalCase.sol:LL:CC
+   |
+52 | library LIBRARYPASCALCASETEST {}
+   |         ---------------------
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#pascal-case-library
+
+note[pascal-case-enum]: enums should use PascalCase
+  --> ROOT/testdata/PascalCase.sol:LL:CC
+   |
+58 |     enum testcase { one }
+   |          --------
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#pascal-case-enum
+
+note[pascal-case-enum]: enums should use PascalCase
+  --> ROOT/testdata/PascalCase.sol:LL:CC
+   |
+60 |     enum _TestCase { one }
+   |          ---------
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#pascal-case-enum
+
+note[pascal-case-enum]: enums should use PascalCase
+  --> ROOT/testdata/PascalCase.sol:LL:CC
+   |
+61 |     enum testCase { one }
+   |          --------
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#pascal-case-enum
+
+note[pascal-case-enum]: enums should use PascalCase
+  --> ROOT/testdata/PascalCase.sol:LL:CC
+   |
+62 |     enum test_case { one }
+   |          ---------
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#pascal-case-enum
+
+note[pascal-case-enum]: enums should use PascalCase
+  --> ROOT/testdata/PascalCase.sol:LL:CC
+   |
+63 |     enum TEST_CASE { one }
+   |          ---------
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#pascal-case-enum
+
+note[pascal-case-enum]: enums should use PascalCase
+  --> ROOT/testdata/PascalCase.sol:LL:CC
+   |
+64 |     enum TESTCASE { one }
+   |          --------
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#pascal-case-enum
+
+note[pascal-case-event]: events should use PascalCase
+  --> ROOT/testdata/PascalCase.sol:LL:CC
+   |
+67 | event eventPascalCaseTest();
+   |       -------------------
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#pascal-case-event
+
+note[pascal-case-event]: events should use PascalCase
+  --> ROOT/testdata/PascalCase.sol:LL:CC
+   |
+70 |     event _EventPascalCaseTest();
+   |           --------------------
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#pascal-case-event
+
+note[pascal-case-event]: events should use PascalCase
+  --> ROOT/testdata/PascalCase.sol:LL:CC
+   |
+71 |     event eventPascalCaseTest();
+   |           -------------------
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#pascal-case-event
+
+note[pascal-case-event]: events should use PascalCase
+  --> ROOT/testdata/PascalCase.sol:LL:CC
+   |
+72 |     event eventpascalcasetest();
+   |           -------------------
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#pascal-case-event
+
+note[pascal-case-event]: events should use PascalCase
+  --> ROOT/testdata/PascalCase.sol:LL:CC
+   |
+73 |     event event_pascal_case_test();
+   |           ----------------------
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#pascal-case-event
+
+note[pascal-case-event]: events should use PascalCase
+  --> ROOT/testdata/PascalCase.sol:LL:CC
+   |
+74 |     event EVENT_PASCAL_CASE_TEST();
+   |           ----------------------
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#pascal-case-event
+
+note[pascal-case-event]: events should use PascalCase
+  --> ROOT/testdata/PascalCase.sol:LL:CC
+   |
+75 |     event EVENTPASCALCASETEST();
+   |           -------------------
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#pascal-case-event
+
