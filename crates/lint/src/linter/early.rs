@@ -15,6 +15,8 @@ pub trait EarlyLintPass<'ast>: Send + Sync {
         _func: &'ast ast::ItemFunction<'ast>,
     ) {
     }
+    fn check_item_enum(&mut self, _ctx: &LintContext<'_>, _enum: &'ast ast::ItemEnum<'ast>) {}
+    fn check_item_event(&mut self, _ctx: &LintContext<'_>, _event: &'ast ast::ItemEvent<'ast>) {}
     fn check_variable_definition(
         &mut self,
         _ctx: &LintContext<'_>,
@@ -143,6 +145,26 @@ where
             pass.check_item_function(self.ctx, func)
         }
         self.walk_item_function(func)
+    }
+
+    fn visit_item_enum(
+        &mut self,
+        enum_: &'ast ast::ItemEnum<'ast>,
+    ) -> ControlFlow<Self::BreakValue> {
+        for pass in self.passes.iter_mut() {
+            pass.check_item_enum(self.ctx, enum_);
+        }
+        self.walk_item_enum(enum_)
+    }
+
+    fn visit_item_event(
+        &mut self,
+        event_: &'ast ast::ItemEvent<'ast>,
+    ) -> ControlFlow<Self::BreakValue> {
+        for pass in self.passes.iter_mut() {
+            pass.check_item_event(self.ctx, event_);
+        }
+        self.walk_item_event(event_)
     }
 
     fn visit_import_directive(
