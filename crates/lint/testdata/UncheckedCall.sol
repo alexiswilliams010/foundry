@@ -4,6 +4,7 @@ pragma solidity ^0.8.0;
 contract UncheckedCall {
     event CallResult(bool, bytes);
 
+    // forge-lint: disable-start(error-in-require)
     // SHOULD PASS: Properly checked low-level calls
     function checkedCallWithTuple(address target, bytes memory data) public {
         (bool success, bytes memory result) = target.call(data);
@@ -52,6 +53,7 @@ contract UncheckedCall {
         bool sent = target.send(1 ether); // Should not trigger
         require(sent, "Send failed");
     }
+    // forge-lint: disable-end(error-in-require)
 
 
     // SHOULD FAIL: Unchecked low-level calls

@@ -116,7 +116,7 @@ contract UnwrappedModifierLogicTest {
 
     // Bad because `require` built-in is used.
     modifier onlyOwner() { //~NOTE: wrap modifier logic to reduce code size
-        require(isOwner[msg.sender], "Not owner"); // _onlyOwner();
+        require(isOwner[msg.sender], "Not owner"); // forge-lint: disable-line(error-in-require)
         _;
     }
 

@@ -94,7 +94,7 @@ note[unwrapped-modifier-logic]: wrap modifier logic to reduce code size
     = note: wrap modifier logic to reduce code size
             
             - modifier onlyOwner() {
-            -     require(isOwner[msg.sender], "Not owner"); // _onlyOwner();
+            -     require(isOwner[msg.sender], "Not owner"); // forge-lint: disable-line(error-in-require)
             -     _;
             - }
             + modifier onlyOwner() {

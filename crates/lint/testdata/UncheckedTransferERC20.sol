@@ -35,6 +35,7 @@ contract UncheckedTransfer {
         }
     }
 
+    // forge-lint: disable-start(error-in-require)
     // SHOULD PASS: Properly checked transfer calls
     function checkedTransferWithRequire(address to, uint256 amount) public {
         require(token.transfer(to, amount), "Transfer failed");
@@ -72,6 +73,7 @@ contract UncheckedTransfer {
             "Invalid amount or transfer failed"
         );
     }
+    // forge-lint: disable-end(error-in-require)
 
     // Edge case: approve is not a transfer function, should not be flagged
     function uncheckedApprove(address spender, uint256 amount) public {
